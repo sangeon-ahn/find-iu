@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 class="time-left">30</h1>
+    <table class="game-board display-none">
+        <tr>
+            <td class="table-data black-background" data-index="0"></td>
+            <td class="table-data black-background" data-index="1"></td>
+            <td class="table-data black-background" data-index="2"></td>
+            <td class="table-data black-background" data-index="3"></td>
+        </tr>
+        <tr>
+            <td class="table-data black-background" data-index="4"></td>
+            <td class="table-data black-background" data-index="5"></td>
+            <td class="table-data black-background" data-index="6"></td>
+            <td class="table-data black-background" data-index="7"></td>
+        </tr>
+        <tr>
+            <td class="table-data black-background" data-index="8"></td>
+            <td class="table-data black-background" data-index="9"></td>
+            <td class="table-data black-background" data-index="10"></td>
+            <td class="table-data black-background" data-index="11"></td>
+        </tr>
+        <tr>
+            <td class="table-data black-background" data-index="12"></td>
+            <td class="table-data black-background" data-index="13"></td>
+            <td class="table-data black-background" data-index="14"></td>
+            <td class="table-data black-background" data-index="15"></td>
+        </tr>
+    </table>
+    <button class="game-start-button" type="button">게임 시작</button>
+    <button class="game-restart-button display-none" type="button">게임 재시작</button>
+    <audio src="audio/start.mp3" class="start-sound"></audio>
+    <audio src="audio/win.mp3" class="win-sound"></audio>
+    <audio src="audio/lose.wav" class="lose-sound"></audio>
+    <audio src="audio/correct.mp3" class="correct-sound"></audio>
+    <audio src="audio/wrong.mp3" class="wrong-sound"></audio>
+    <script src="index.js"></script>
+</body>
+</html>

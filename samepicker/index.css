@@ -1,0 +1,29 @@
+.table-data {
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    width: 150px;
+    height: 150px;
+}
+
+table {
+    margin: 30 auto;
+    border-spacing: 4px;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.display-none {
+    display: none;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
